@@ -1,0 +1,48 @@
+========================================================================
+FINAL EIGHT-GROUP + L5 DATE-MISSINGNESS AUDIT
+========================================================================
+
+Total cohort: 3227
+
+Eight-group counts:
+Genomic_resistance_group  No_isolates   Percent
+                  gDS-TB         1822 56.461109
+                  gHR-TB           48  1.487450
+                  gRR-TB          125  3.873567
+             gMono-other           80  2.479083
+        gPoly-resistance           99  3.067865
+                 gMDR-TB          967 29.965913
+             gPre-XDR-TB           83  2.572048
+                 gXDR-TB            3  0.092966
+
+Crosswalk from resistance_category_clean:
+genomic_resistance_group      gDS-TB  gHR-TB  gRR-TB  gMono-other  gPoly-resistance  gMDR-TB  gPre-XDR-TB  gXDR-TB
+resistance_category_clean                                                                                         
+MDR                                0       0       0            0                 0      967            0        0
+XDR                                0       0       0            0                 0        0            0        3
+mono_resistant                     0      48       0           80                 0        0            0        0
+no_resistance_predicted         1822       0       0            0                 0        0            0        0
+poly_resistant_non_MDR             0       0       0            0                99        0            0        0
+pre_XDR                            0       0       0            0                 0        0           83        0
+rifampicin_resistant_non_MDR       0       0     125            0                 0        0            0        0
+
+L5 collection-year availability:
+ has_collection_year  n  any_resistant  MDR_or_higher  preXDR_XDR  any_resistant_pct  MDR_or_higher_pct  preXDR_XDR_pct
+               False 69             22              9           0          31.884058          13.043478             0.0
+                True 25             18             17           0          72.000000          68.000000             0.0
+
+L5 missing-year studies:
+study_accession country_final_curated      subregion  n  any_resistant  MDR_or_higher  preXDR_XDR  any_resistant_pct  MDR_or_higher_pct
+     PRJEB27244                 Ghana    West Africa 37              9              4           0          24.324324          10.810811
+     PRJEB40777              Cameroon Central Africa  4              4              4           0         100.000000         100.000000
+     PRJEB41245               Nigeria    West Africa  1              1              0           0         100.000000           0.000000
+      PRJEB7727          Sierra Leone    West Africa  6              3              1           0          50.000000          16.666667
+      PRJEB9545 Republic of the Congo Central Africa 17              5              0           0          29.411765           0.000000
+   PRJNA1441484               Senegal    West Africa  1              0              0           0           0.000000           0.000000
+    PRJNA211633                  Mali    West Africa  1              0              0           0           0.000000           0.000000
+    PRJNA211660                  Mali    West Africa  2              0              0           0           0.000000           0.000000
+
+Checks:
+Eight-group sum = 3227
+Lineage table sum = 3227
+Subregion table sum = 3227

@@ -1,0 +1,3 @@
+has_collection_year	n	any_resistant	MDR_or_higher	preXDR_XDR	any_resistant_pct	MDR_or_higher_pct	preXDR_XDR_pct
+False	69	22	9	0	31.884057971014492	13.043478260869565	0.0
+True	25	18	17	0	72.0	68.0	0.0

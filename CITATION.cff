@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or supporting dataset, please cite the associated article."
+title: "Reproducibility materials for lineage–drug resistance associations in African Mycobacterium tuberculosis complex"
+type: software
+authors:
+  - family-names: "Acquah-Keelson"
+    given-names: "Amanquador"
+version: "1.0.0"
+date-released: "2026-11-05"
+repository-code: "INSERT_GITHUB_URL"
+abstract: "Analysis code and supporting data for a harmonised study of lineage-associated genomic drug resistance in African MTBC."

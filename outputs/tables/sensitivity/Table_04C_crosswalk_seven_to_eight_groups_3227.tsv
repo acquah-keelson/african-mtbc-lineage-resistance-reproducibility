@@ -1,0 +1,8 @@
+resistance_category_clean	gDS-TB	gHR-TB	gRR-TB	gMono-other	gPoly-resistance	gMDR-TB	gPre-XDR-TB	gXDR-TB
+MDR	0	0	0	0	0	967	0	0
+XDR	0	0	0	0	0	0	0	3
+mono_resistant	0	48	0	80	0	0	0	0
+no_resistance_predicted	1822	0	0	0	0	0	0	0
+poly_resistant_non_MDR	0	0	0	0	99	0	0	0
+pre_XDR	0	0	0	0	0	0	83	0
+rifampicin_resistant_non_MDR	0	0	125	0	0	0	0	0

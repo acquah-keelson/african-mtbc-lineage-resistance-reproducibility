@@ -1,0 +1,32 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Logs generated during reruns
+outputs/logs/*.log
+
+# Large local-only intermediates
+data/processed/manuscript1_analysis_dataset.tsv
+
+# Saved statistical model objects archived with Zenodo release
+outputs/bayesian/fits/*.rds
+outputs/bayesian/prior_sensitivity/fits/*.rds
+outputs/models/frequentist/*.rds

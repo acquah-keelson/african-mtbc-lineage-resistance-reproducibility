@@ -1,0 +1,11 @@
+outcome	lineage	crude_or	crude_lcl	crude_ucl	adjusted_or	adjusted_lcl	adjusted_ucl
+Any resistance	L1	0.357	0.266	0.477	1.568	0.997	2.466
+Any resistance	L2	0.656	0.504	0.854	1.183	0.749	1.87
+Any resistance	L3	0.53	0.422	0.666	1.613	1.074	2.422
+Any resistance	L5	0.681	0.448	1.035	2.868	0.742	11.087
+Any resistance	L6	0.066	0.04	0.107	0.394	0.207	0.752
+MDR or higher	L1	0.318	0.228	0.445	1.97	1.134	3.421
+MDR or higher	L2	0.6	0.452	0.796	0.808	0.435	1.501
+MDR or higher	L3	0.423	0.327	0.548	0.76	0.46	1.258
+MDR or higher	L5	0.546	0.345	0.866	7.671	1.511	38.944
+MDR or higher	L6	0.016	0.005	0.05	0.19	0.028	1.295

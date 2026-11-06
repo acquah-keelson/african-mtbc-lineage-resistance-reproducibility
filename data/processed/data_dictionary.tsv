@@ -1,0 +1,32 @@
+variable	description	data_type	missing_n	unique_n
+run_accession	Public ENA/SRA sequencing run accession.	object	0	3227
+study_accession	Public study or BioProject accession.	object	0	112
+sample_accession	Public ENA/SRA sample accession.	object	0	3102
+country	Curated country of isolate origin used in the final analysis.	object	0	22
+subregion	African subregion assigned from curated country.	object	0	5
+collection_year	Curated year of specimen collection; missing for 69 isolates.	float64	69	31
+major_lineage	Major MTBC lineage assignment from the public classification (lineage1-lineage6); equivalent modelling labels are L1-L6.	object	0	6
+lineage_family_or_rd	TB-Profiler lineage family or region-of-difference based lineage assignment.	object	0	6
+mean_depth	Mean sequencing depth.	float64	0	3188
+breadth_1x_percent	Percentage of H37Rv reference genome covered at >=1x.	float64	0	2833
+breadth_10x_percent	Percentage of H37Rv reference genome covered at >=10x.	float64	0	3005
+resistance_category	Seven-category internal genomic resistance classification.	object	0	7
+any_resistance	TRUE if at least one genomic resistance-associated prediction was present.	bool	0	2
+rifampicin_resistant	Genomic prediction of rifampicin resistance.	bool	0	2
+isoniazid_resistant	Genomic prediction of isoniazid resistance.	bool	0	2
+ethambutol_resistant	Genomic prediction of ethambutol resistance.	bool	0	2
+pyrazinamide_resistant	Genomic prediction of pyrazinamide resistance.	bool	0	2
+streptomycin_resistant	Genomic prediction of streptomycin resistance.	bool	0	2
+fluoroquinolone_resistant	Genomic prediction of fluoroquinolone resistance.	bool	0	2
+aminoglycoside_resistant	Genomic prediction of aminoglycoside resistance.	bool	0	2
+bedaquiline_resistant	Genomic prediction of bedaquiline resistance.	bool	0	2
+linezolid_resistant	Genomic prediction of linezolid resistance.	bool	0	1
+n_resistance_drugs	Number of drugs with genomic resistance predictions.	int64	0	16
+n_resistance_genes	Number of resistance-associated genes containing reported variants.	int64	0	12
+n_resistance_variants	Number of resistance-associated variants.	int64	0	12
+resistance_genes	Resistance-associated genes reported for the isolate.	object	1697	269
+resistance_variants	Resistance-associated variants reported for the isolate.	object	1822	1029
+MDR_or_higher	TRUE for MDR, pre-XDR or XDR genomic resistance categories.	bool	0	2
+advanced_resistance	TRUE for pre-XDR or XDR genomic resistance categories.	bool	0	2
+resistance_drugs	Drugs represented among genomic resistance predictions; used for eight-group classification.	object	1822	109
+genomic_resistance_group	Final mutually exclusive eight-group genomic resistance classification.	object	0	8

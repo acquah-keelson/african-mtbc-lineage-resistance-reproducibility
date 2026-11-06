@@ -1,0 +1,24 @@
+ Family: bernoulli 
+  Links: mu = logit 
+Formula: any_resistance ~ lineage + (1 | study) 
+   Data: dfull (Number of observations: 3227) 
+  Draws: 4 chains, each with iter = 4000; warmup = 2000; thin = 1;
+         total post-warmup draws = 8000
+
+Multilevel Hyperparameters:
+~study (Number of levels: 112) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     3.31      0.58     2.35     4.61 1.00      921     1367
+
+Regression Coefficients:
+          Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept     0.81      0.42     0.03     1.69 1.00      704     1366
+lineageL1     0.47      0.23     0.03     0.91 1.00     8949     6032
+lineageL2     0.16      0.23    -0.29     0.59 1.00     8406     6557
+lineageL3     0.42      0.20     0.03     0.83 1.00     9723     6037
+lineageL5     0.42      0.52    -0.58     1.44 1.00     4169     4712
+lineageL6    -0.86      0.31    -1.46    -0.27 1.00    10462     5613
+
+Draws were sampled using sample(hmc). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).

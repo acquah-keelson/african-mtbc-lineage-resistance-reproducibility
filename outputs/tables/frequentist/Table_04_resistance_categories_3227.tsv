@@ -1,0 +1,8 @@
+resistance_category_clean	n	percent
+no_resistance_predicted	1822	56.46110938952587
+MDR	967	29.965912612333437
+mono_resistant	128	3.9665323830182833
+rifampicin_resistant_non_MDR	125	3.8735667802912923
+poly_resistant_non_MDR	99	3.0678648899907035
+pre_XDR	83	2.572048342113418
+XDR	3	0.09296560272699102

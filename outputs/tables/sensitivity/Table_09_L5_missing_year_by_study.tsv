@@ -1,0 +1,9 @@
+study_accession	country_final_curated	subregion	n	any_resistant	MDR_or_higher	preXDR_XDR	any_resistant_pct	MDR_or_higher_pct
+PRJEB27244	Ghana	West Africa	37	9	4	0	24.324324324324323	10.81081081081081
+PRJEB40777	Cameroon	Central Africa	4	4	4	0	100.0	100.0
+PRJEB41245	Nigeria	West Africa	1	1	0	0	100.0	0.0
+PRJEB7727	Sierra Leone	West Africa	6	3	1	0	50.0	16.666666666666668
+PRJEB9545	Republic of the Congo	Central Africa	17	5	0	0	29.41176470588235	0.0
+PRJNA1441484	Senegal	West Africa	1	0	0	0	0.0	0.0
+PRJNA211633	Mali	West Africa	1	0	0	0	0.0	0.0
+PRJNA211660	Mali	West Africa	2	0	0	0	0.0	0.0
