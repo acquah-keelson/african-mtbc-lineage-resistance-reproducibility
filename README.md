@@ -174,6 +174,12 @@ Raw sequencing reads are not redistributed in this repository.
 
 The underlying sequencing runs originate from public ENA/SRA resources. Run-, sample- and study-level accession identifiers are included in the public supporting dataset.
 
+## Repository
+
+GitHub:
+
+https://github.com/acquah-keelson/african-mtbc-lineage-resistance-reproducibility
+
 ## Release strategy
 
 1. Complete the final local reproducibility audit.
